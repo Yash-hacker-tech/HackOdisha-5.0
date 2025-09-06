@@ -84,7 +84,7 @@ const Header = () => {
         </div>
 
         {/* Mobile navigation */}
-        <nav className="md:hidden mt-4 pt-4 border-t border-blue-500">
+        <nav className="md:hidden mt-4 pt-4">
           <div className="flex flex-col space-y-2">
             <Link to="/" className="hover:text-blue-200 transition-colors py-2">Home</Link>
             <Link to="/about" className="hover:text-blue-200 transition-colors py-2">About</Link>
